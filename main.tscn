@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bu0fihnfq4an7"]
+
+[ext_resource type="Texture2D" uid="uid://3wqa0tey5adp" path="res://images/elneitor.png" id="1_ig7tw"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="Elneitor" type="Sprite2D" parent="Panel"]
+position = Vector2(960, 300)
+texture = ExtResource("1_ig7tw")
